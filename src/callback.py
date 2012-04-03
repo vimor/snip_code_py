@@ -25,7 +25,7 @@ def minus(num1, num2):
     print u'减法=%d' %(num1 - num2, )
     
 def multiply(num1, num2):
-    print num1 * num2
+    print u'乘法=%d' %(num1 * num2, )
     
 f = Foo(2,3)
 
