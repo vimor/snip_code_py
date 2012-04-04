@@ -27,6 +27,9 @@ def minus(num1, num2):
 def multiply(num1, num2):
     print u'乘法=%d' %(num1 * num2, )
     
+def add_by_vimor():
+    print 'this method added by vimor'
+    
 f = Foo(2,3)
 
 f.hook(plus)
